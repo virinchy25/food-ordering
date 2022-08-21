@@ -1,0 +1,79 @@
+.header-right-container h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+.navbar {
+  height: 5rem;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  /* width: 800px; */
+  width: 100%;
+  min-height: 400px;
+  padding: 0rem 2.4rem;
+
+  /* margin-left: 2rem; */
+}
+.header-left-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.header-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-top: 10rem; */
+  /* margin-left: 2rem; */
+  width: 50%;
+  padding: 1rem;
+}
+.inner-container {
+  background: rgb(251, 188, 188);
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  padding: 0 0.8rem;
+}
+.inner-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 1rem;
+}
+
+.inner-right-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 2rem;
+  align-items: center;
+}
+.order-button {
+  border-radius: 25px;
+  margin: 2.4rem 0;
+}
+.btn {
+  background-color: black;
+  border-color: black;
+}
+.btn-secondary {
+  background-color: black;
+  border-color: black;
+}
+.carousel-item {
+  height: 500px;
+}
+.card-test {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2.4rem 0;
+  flex-wrap: wrap;
+  padding: 0 0.4rem;
+}
